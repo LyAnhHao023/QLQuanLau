@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d9c9e274465343f381b4084211d3862f" Name="Diagram1">
+        <EntityTypeShape EntityType="QLQuanLauModel.BANAN" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQuanLauModel.CTHOADON" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQuanLauModel.HOADON" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQuanLauModel.MONAN" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQuanLauModel.NHANVIEN" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLQuanLauModel.TAIKHOAN" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <AssociationConnector Association="QLQuanLauModel.FK_HOADON_BanAn" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQuanLauModel.FK_CTHOADON_HOADON" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQuanLauModel.FK_CTHOADON_MONAN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQuanLauModel.FK_HOADON_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLQuanLauModel.FK_TAIKHOAN_NHANVIEN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

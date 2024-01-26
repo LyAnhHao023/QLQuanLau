@@ -1,0 +1,1 @@
+Chạy database trước khi cài đặt
